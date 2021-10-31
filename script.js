@@ -6,10 +6,7 @@ const makeList = (name,dp)=>{
 
     console.log(dp)
 
-    return `<a href="#${name}">
-    <img src="${dp}" width=250></img>
-    <h4>${name}</h4>
-    </a>
+    return `
     
     <a href="#${name}">
     <div class="card" style="width: 18rem;">
