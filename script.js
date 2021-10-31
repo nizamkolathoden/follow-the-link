@@ -8,8 +8,9 @@ const makeList = (name,dp)=>{
 
     return `
     
-    <a href="#${name}">
+    
     <div class="card" style="width: 18rem;">
+    <a href="#${name}">
   <img src="${dp}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${name}</h5>
@@ -24,8 +25,9 @@ const makeList = (name,dp)=>{
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
+  </a>
 </div>
-</a>
+
     `
 }
 
